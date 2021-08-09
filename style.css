@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.body{
+    min-width: 100%;
+    min-height: 100vh;
+    background: url(back.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display:flex;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin: 22px;
+}
+
+
+li a{
+    color:#FFf;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+
+
+.headings{
+    color: wheat;
+    display: flex;
+    margin-top: 190px;
+    margin-left: 22px;
+    
+
+}
+
+
+
+span{
+    color: skyblue;
+    transition: 1s;
+    
+}
+
+span:hover{
+    color: greenyellow;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.row{
+    display: flex;
+    flex: 1;
+    width: 90%;
+    
+
+}
+
+.box{
+    margin:12px;
+   
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px;
+    background-color:#c1c1c1;
+    transition: 1s;
+    
+    
+}
+
+.box img{
+    border-radius: 50%;
+    width: 50px;
+    
+    
+}
+
+
+.skills{
+    font-weight: 600;
+}
+
+
+.box:hover{
+    box-shadow: 0 0 20px 0 black
+}
+
+
+h2{
+    display: block;
+    text-align: center;
+
+}
+
+.contact{
+    margin-top: 12px;
+    display: flex;
+    background: black;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+form{
+    margin-top: 10px;
+}
+
+
+.form{
+    margin: 14px;
+    
+
+    
+}
+
+input{
+    font-size: 17px;
+    outline: none;
+    border: 0px solid;
+    border-radius: 7px;
+    padding: 7px;
+    width: 150%;
+    position: relative;
+    right: 41px;
+    
+}
+
+button{
+    margin-left: 91px;
+    background: transparent;
+    border: 2px solid #00c9ff;
+    color: white;
+    padding: 8px 25px;
+    transition: 1s;
+    margin-bottom: 12px;
+}
+
+button:hover{
+    background-color: #00c9ff;
+    box-shadow: 0 0 20px 0 #00c9ff;
+}
+
+footer{
+    text-align: center;
+}
